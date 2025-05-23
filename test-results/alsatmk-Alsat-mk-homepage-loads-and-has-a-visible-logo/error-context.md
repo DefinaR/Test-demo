@@ -1,0 +1,680 @@
+# Test info
+
+- Name: Alsat.mk homepage loads and has a visible logo
+- Location: C:\Users\dr30126\alsat-tests\alsatmk.spec.js:3:1
+
+# Error details
+
+```
+Error: Timed out 5000ms waiting for expect(locator).toBeVisible()
+
+Locator: locator('img[alt="Alsat-M"]')
+Expected: visible
+Received: <element(s) not found>
+Call log:
+  - expect.toBeVisible with timeout 5000ms
+  - waiting for locator('img[alt="Alsat-M"]')
+
+    at C:\Users\dr30126\alsat-tests\alsatmk.spec.js:8:22
+```
+
+# Page snapshot
+
+```yaml
+- banner:
+  - navigation "Primary Navigation":
+    - link "Alsat Alsat":
+      - /url: https://alsat.mk/
+      - img "Alsat"
+      - heading "Alsat" [level=1]
+    - list:
+      - listitem:
+        - link " BALLINA":
+          - /url: https://alsat.mk/lajme/
+      - listitem:
+        - link "EKONOMI":
+          - /url: https://alsat.mk/ekonomi/
+      - listitem:
+        - link "SPORT":
+          - /url: https://alsat.mk/sport/
+      - listitem:
+        - link "SHËNDETI":
+          - /url: https://alsat.mk/shendet/
+      - listitem:
+        - link " CULT/BIZZ":
+          - /url: https://alsat.mk/metropol/
+      - listitem:
+        - link "TEKNOLOGJI":
+          - /url: https://alsat.mk/teknologji/
+      - listitem:
+        - link "NDRYSHIME KLIMATIKE":
+          - /url: https://alsat.mk/ndryshimet-klimatike/
+      - listitem:
+        - link "TV ALSAT":
+          - /url: https://alsat.mk/tv-alsat/
+      - listitem:
+        - link "MK":
+          - /url: https://alsat.mk/mk/
+    - list:
+      - listitem:
+        - link " Facebook":
+          - /url: https://www.facebook.com/alsatnmk/
+      - listitem:
+        - link " YouTube":
+          - /url: https://www.youtube.com/user/alsatmtv
+      - listitem:
+        - link " Instagram":
+          - /url: https://www.instagram.com/alsat.mk/
+      - listitem:
+        - link "Switch skin":
+          - /url: "#"
+      - listitem:
+        - link "Search for":
+          - /url: "#"
+- main:
+  - list:
+    - listitem: 
+    - listitem: 
+  - listbox:
+    - option:
+      - 'link "Onkologjia/ Ekspertët konstatojnë: Njëzet e nëntë pacientë me kancer morën doza joadekuate të terapisë dhe u trajtuan në mënyrë joadekuate"':
+        - /url: https://alsat.mk/onkologjia-ekspertet-konstatojne-njezet-e-nente-paciente-me-kancer-moren-doza-joadekuate-te-terapise-dhe-u-trajtuan-ne-menyre-joadekuate/
+      - link "LAJME":
+        - /url: https://alsat.mk/category/lajme/
+      - text: 22.05.2025
+      - 'heading "Onkologjia/ Ekspertët konstatojnë: Njëzet e nëntë pacientë me kancer morën doza joadekuate të terapisë dhe u trajtuan në mënyrë joadekuate" [level=2]':
+        - 'link "Onkologjia/ Ekspertët konstatojnë: Njëzet e nëntë pacientë me kancer morën doza joadekuate të terapisë dhe u trajtuan në mënyrë joadekuate"':
+          - /url: https://alsat.mk/onkologjia-ekspertet-konstatojne-njezet-e-nente-paciente-me-kancer-moren-doza-joadekuate-te-terapise-dhe-u-trajtuan-ne-menyre-joadekuate/
+      - link "Marrëveshja/ Oda kërkon përfshirjen e biznesit":
+        - /url: https://alsat.mk/marreveshja-oda-kerkon-perfshirjen-e-biznesit/
+      - link "LAJME":
+        - /url: https://alsat.mk/category/lajme/
+      - text: 22.05.2025
+      - heading "Marrëveshja/ Oda kërkon përfshirjen e biznesit" [level=2]:
+        - link "Marrëveshja/ Oda kërkon përfshirjen e biznesit":
+          - /url: https://alsat.mk/marreveshja-oda-kerkon-perfshirjen-e-biznesit/
+      - link "Komuna e Gjorçe Petrovit po “mbytet” nga mbeturinat, banorët të revoltuar nga neglizhenca e Qytetit të Shkupit":
+        - /url: https://alsat.mk/komuna-e-gjorce-petrovit-po-mbytet-nga-mbeturinat-banoret-te-revoltuar-nga-neglizhenca-e-qytetit-te-shkupit/
+      - link "LAJME":
+        - /url: https://alsat.mk/category/lajme/
+      - text: 22.05.2025
+      - heading "Komuna e Gjorçe Petrovit po “mbytet” nga mbeturinat, banorët të revoltuar nga neglizhenca e Qytetit të Shkupit" [level=2]:
+        - link "Komuna e Gjorçe Petrovit po “mbytet” nga mbeturinat, banorët të revoltuar nga neglizhenca e Qytetit të Shkupit":
+          - /url: https://alsat.mk/komuna-e-gjorce-petrovit-po-mbytet-nga-mbeturinat-banoret-te-revoltuar-nga-neglizhenca-e-qytetit-te-shkupit/
+      - link "Inspektorati ndërtimor ka vendosur ndalesë për vazhdimin e punimeve të shkollës në Nerovë të Krushevës":
+        - /url: https://alsat.mk/inspektorati-ndertimor-ka-vendosur-ndalese-per-vazhdimin-e-punimeve-te-shkolles-ne-nerove-te-krusheves/
+      - link "LAJME":
+        - /url: https://alsat.mk/category/lajme/
+      - text: 22.05.2025
+      - heading "Inspektorati ndërtimor ka vendosur ndalesë për vazhdimin e punimeve të shkollës në Nerovë të Krushevës" [level=2]:
+        - link "Inspektorati ndërtimor ka vendosur ndalesë për vazhdimin e punimeve të shkollës në Nerovë të Krushevës":
+          - /url: https://alsat.mk/inspektorati-ndertimor-ka-vendosur-ndalese-per-vazhdimin-e-punimeve-te-shkolles-ne-nerove-te-krusheves/
+      - 'link "Ivanov: Marrëveshja me Mbretërinë e Bashkuar do të ketë ndikim pozitiv për Maqedoninë"':
+        - /url: https://alsat.mk/ivanov-marreveshja-me-mbreterine-e-bashkuar-do-te-kete-ndikim-pozitiv-per-maqedonine/
+      - link "LAJME":
+        - /url: https://alsat.mk/category/lajme/
+      - text: 22.05.2025
+      - 'heading "Ivanov: Marrëveshja me Mbretërinë e Bashkuar do të ketë ndikim pozitiv për Maqedoninë" [level=2]':
+        - 'link "Ivanov: Marrëveshja me Mbretërinë e Bashkuar do të ketë ndikim pozitiv për Maqedoninë"':
+          - /url: https://alsat.mk/ivanov-marreveshja-me-mbreterine-e-bashkuar-do-te-kete-ndikim-pozitiv-per-maqedonine/
+  - heading "BOTA/RAJONI" [level=3]
+  - list:
+    - listitem:
+      - link "107 kamionë me ndihma kanë hyrë në Gaza të enjten, thotë ushtria izraelite":
+        - /url: https://alsat.mk/107-kamione-me-ndihma-kane-hyre-ne-gaza-te-enjten-thote-ushtria-izraelite/
+        - text: BOTA
+      - text:  23.05.2025 329
+      - heading "107 kamionë me ndihma kanë hyrë në Gaza të enjten, thotë ushtria izraelite" [level=2]:
+        - link "107 kamionë me ndihma kanë hyrë në Gaza të enjten, thotë ushtria izraelite":
+          - /url: https://alsat.mk/107-kamione-me-ndihma-kane-hyre-ne-gaza-te-enjten-thote-ushtria-izraelite/
+      - paragraph: Ushtria izraelite të premten ka njoftuar se një total prej 107 kamionësh me ndihma që i përkasin OKB-së dhe organizatave…
+      - link "Read More »":
+        - /url: https://alsat.mk/107-kamione-me-ndihma-kane-hyre-ne-gaza-te-enjten-thote-ushtria-izraelite/
+    - listitem:
+      - link "Vendet e G7-tës dakordohen që t’u kundërpërgjigjen praktikave tregtare të Kinës":
+        - /url: https://alsat.mk/vendet-e-g7-tes-dakordohen-qe-tu-kunderpergjigjen-praktikave-tregtare-te-kines/
+        - text: BOTA
+      - text:  23.05.2025 336
+      - heading "Vendet e G7-tës dakordohen që t’u kundërpërgjigjen praktikave tregtare të Kinës" [level=2]:
+        - link "Vendet e G7-tës dakordohen që t’u kundërpërgjigjen praktikave tregtare të Kinës":
+          - /url: https://alsat.mk/vendet-e-g7-tes-dakordohen-qe-tu-kunderpergjigjen-praktikave-tregtare-te-kines/
+      - paragraph: Zyrtarët e lartë financiarë të shtatë vendeve më të industrializuara të botës (G7) janë zotuar të enjten se do të…
+      - link "Read More »":
+        - /url: https://alsat.mk/vendet-e-g7-tes-dakordohen-qe-tu-kunderpergjigjen-praktikave-tregtare-te-kines/
+    - listitem:
+      - link "Hakohen të dhënat e mbi 60 anëtarëve të administratës Trump – hakeri pretendon se iu deshën më pak se 20 minuta":
+        - /url: https://alsat.mk/hakohen-te-dhenat-e-mbi-60-anetareve-te-administrates-trump-hakeri-pretendon-se-iu-deshen-me-pak-se-20-minuta/
+        - text: BOTA
+      - text:  23.05.2025 354
+      - heading "Hakohen të dhënat e mbi 60 anëtarëve të administratës Trump – hakeri pretendon se iu deshën më pak se 20 minuta" [level=2]:
+        - link "Hakohen të dhënat e mbi 60 anëtarëve të administratës Trump – hakeri pretendon se iu deshën më pak se 20 minuta":
+          - /url: https://alsat.mk/hakohen-te-dhenat-e-mbi-60-anetareve-te-administrates-trump-hakeri-pretendon-se-iu-deshen-me-pak-se-20-minuta/
+      - paragraph: Mike Waltz, këshilltari i sigurisë kombëtare i presidentit të SHBA-së, Donald Trump, tashmë është shkarkuar për përdorimin e një kopjeje…
+      - link "Read More »":
+        - /url: https://alsat.mk/hakohen-te-dhenat-e-mbi-60-anetareve-te-administrates-trump-hakeri-pretendon-se-iu-deshen-me-pak-se-20-minuta/
+    - listitem:
+      - link "Temperaturat në Emiratet e Bashkuara arrijnë gati 50°C – vala e të nxehtit përfshin vendin":
+        - /url: https://alsat.mk/temperaturat-ne-emiratet-e-bashkuara-arrijne-gati-50c-vala-e-te-nxehtit-perfshin-vendin/
+        - text: BOTA
+      - text:  22.05.2025 425
+      - heading "Temperaturat në Emiratet e Bashkuara arrijnë gati 50°C – vala e të nxehtit përfshin vendin" [level=2]:
+        - link "Temperaturat në Emiratet e Bashkuara arrijnë gati 50°C – vala e të nxehtit përfshin vendin":
+          - /url: https://alsat.mk/temperaturat-ne-emiratet-e-bashkuara-arrijne-gati-50c-vala-e-te-nxehtit-perfshin-vendin/
+      - paragraph: Emiratet e Bashkuara Arabe po përballen me një valë të nxehti të jashtëzakonshme, me temperaturat që janë ngjitur pranë kufirit…
+      - link "Read More »":
+        - /url: https://alsat.mk/temperaturat-ne-emiratet-e-bashkuara-arrijne-gati-50c-vala-e-te-nxehtit-perfshin-vendin/
+    - listitem:
+      - link "Izraeli tërheq të gjithë negociatorët e armëpushimit nga Katari":
+        - /url: https://alsat.mk/izraeli-terheq-te-gjithe-negociatoret-e-armepushimit-nga-katari/
+        - text: BOTA
+      - text:  22.05.2025 550
+      - heading "Izraeli tërheq të gjithë negociatorët e armëpushimit nga Katari" [level=2]:
+        - link "Izraeli tërheq të gjithë negociatorët e armëpushimit nga Katari":
+          - /url: https://alsat.mk/izraeli-terheq-te-gjithe-negociatoret-e-armepushimit-nga-katari/
+      - paragraph: Qeveria izraelite do të tërheqë të gjithë ekipin e saj negociator nga bisedimet e armëpushimit në Doha. Sipas mediave të huaja,…
+      - link "Read More »":
+        - /url: https://alsat.mk/izraeli-terheq-te-gjithe-negociatoret-e-armepushimit-nga-katari/
+  - link "Hapë më Shumë":
+    - /url: "#"
+  - heading "EKONOMI" [level=3]
+  - list:
+    - listitem:
+      - link "Previous page":
+        - /url: "#"
+    - listitem:
+      - link "Next page":
+        - /url: "#"
+  - list:
+    - listitem:
+      - link "Paga mesatare për muajin mars ishte 44.763 denarë":
+        - /url: https://alsat.mk/paga-mesatare-per-muajin-mars-ishte-44-763-denare/
+        - text: VENDI
+      - heading "Paga mesatare për muajin mars ishte 44.763 denarë" [level=2]:
+        - link "Paga mesatare për muajin mars ishte 44.763 denarë":
+          - /url: https://alsat.mk/paga-mesatare-per-muajin-mars-ishte-44-763-denare/
+      - paragraph: Enti Shtetëror i Statistikave njoftoi se paga mesatare mujore neto e paguar për një të punësuar, në mars të vitit…
+      - link "Read More »":
+        - /url: https://alsat.mk/paga-mesatare-per-muajin-mars-ishte-44-763-denare/
+    - listitem:
+      - link "Mungesa e kuadrit në sektorin e turizmit, shpresa tek punësimi sezonal dhe i personave nën 18 vjeç":
+        - /url: https://alsat.mk/mungesa-e-kuadrit-ne-sektorin-e-turizmit-shpresa-tek-punesimi-sezonal-dhe-personave-nen-18-vjec/
+        - text: LAJME
+      - heading "Mungesa e kuadrit në sektorin e turizmit, shpresa tek punësimi sezonal dhe i personave nën 18 vjeç" [level=2]:
+        - link "Mungesa e kuadrit në sektorin e turizmit, shpresa tek punësimi sezonal dhe i personave nën 18 vjeç":
+          - /url: https://alsat.mk/mungesa-e-kuadrit-ne-sektorin-e-turizmit-shpresa-tek-punesimi-sezonal-dhe-personave-nen-18-vjec/
+      - paragraph: "Gazetar: Miki Trajkovski Mundësia e punësimit sezonal, përfshirë pensionistët dhe personat nën 18 vjeç, do ta përmirësojë pjesërisht situatën me…"
+      - link "Read More »":
+        - /url: https://alsat.mk/mungesa-e-kuadrit-ne-sektorin-e-turizmit-shpresa-tek-punesimi-sezonal-dhe-personave-nen-18-vjec/
+    - listitem:
+      - link "Marrëveshja Shkup – Londër, 6 MLD euro për projekte kapitale":
+        - /url: https://alsat.mk/marreveshja-shkup-londer-6-mld-euro-per-projekte-kapitale/
+        - text: LAJME
+      - heading "Marrëveshja Shkup – Londër, 6 MLD euro për projekte kapitale" [level=2]:
+        - link "Marrëveshja Shkup – Londër, 6 MLD euro për projekte kapitale":
+          - /url: https://alsat.mk/marreveshja-shkup-londer-6-mld-euro-per-projekte-kapitale/
+      - paragraph: "Gazetar: Suad Bajrami Zëvendëskryeministri dhe ministri i Transportit Aleksandar Nikollovski dhe ministri britanik i Ekonomisë dhe Eksportit Geret Tomas në…"
+      - link "Read More »":
+        - /url: https://alsat.mk/marreveshja-shkup-londer-6-mld-euro-per-projekte-kapitale/
+    - listitem:
+      - link "Ligji i ri për Energjinë sjell përfitime për qytetarët dhe shtetin, thotë Bozhinovska":
+        - /url: https://alsat.mk/ligji-i-ri-per-energjine-sjell-perfitime-per-qytetaret-dhe-shtetin-thote-bozhinovska/
+        - text: VENDI
+      - heading "Ligji i ri për Energjinë sjell përfitime për qytetarët dhe shtetin, thotë Bozhinovska" [level=2]:
+        - link "Ligji i ri për Energjinë sjell përfitime për qytetarët dhe shtetin, thotë Bozhinovska":
+          - /url: https://alsat.mk/ligji-i-ri-per-energjine-sjell-perfitime-per-qytetaret-dhe-shtetin-thote-bozhinovska/
+      - paragraph: Ligji për energjetikën i miratuar nga Parlamenti i Maqedonisë javën e kaluar sjell shumë përfitime për qytetarët dhe vendin në…
+      - link "Read More »":
+        - /url: https://alsat.mk/ligji-i-ri-per-energjine-sjell-perfitime-per-qytetaret-dhe-shtetin-thote-bozhinovska/
+    - listitem:
+      - 'link "Lista e kursit të këmbimit të BPRMV: Sa është euro sot?"':
+        - /url: https://alsat.mk/lista-e-kursit-te-kembimit-te-bprmv-sa-eshte-euro-sot/
+        - text: EKONOMI
+      - 'heading "Lista e kursit të këmbimit të BPRMV: Sa është euro sot?" [level=2]':
+        - 'link "Lista e kursit të këmbimit të BPRMV: Sa është euro sot?"':
+          - /url: https://alsat.mk/lista-e-kursit-te-kembimit-te-bprmv-sa-eshte-euro-sot/
+      - paragraph: Sipas listës së kursit të këmbimit të BPRMV-së, kursi mesatar i këmbimit të euros sot është 61.6190 denarë, ndërsa i…
+      - link "Read More »":
+        - /url: https://alsat.mk/lista-e-kursit-te-kembimit-te-bprmv-sa-eshte-euro-sot/
+    - listitem:
+      - link "Çdo qytetar i Maqedonisë i detyrohet mesatarisht bankës rreth 2,300 euro":
+        - /url: https://alsat.mk/cdo-qytetar-i-maqedonise-i-detyrohet-mesatarisht-bankes-rreth-2300-euro/
+        - text: VENDI
+      - heading "Çdo qytetar i Maqedonisë i detyrohet mesatarisht bankës rreth 2,300 euro" [level=2]:
+        - link "Çdo qytetar i Maqedonisë i detyrohet mesatarisht bankës rreth 2,300 euro":
+          - /url: https://alsat.mk/cdo-qytetar-i-maqedonise-i-detyrohet-mesatarisht-bankes-rreth-2300-euro/
+      - paragraph: Kompanitë dhe qytetarët u detyroheshin bankave gjithsej 8.268 miliardë euro në prill, dhe rreth gjysma e kësaj shume është borxh…
+      - link "Read More »":
+        - /url: https://alsat.mk/cdo-qytetar-i-maqedonise-i-detyrohet-mesatarisht-bankes-rreth-2300-euro/
+  - heading "Sport" [level=3]:
+    - link "Sport":
+      - /url: https://alsat.mk/sport/
+  - list:
+    - listitem:
+      - link "All":
+        - /url: "#"
+    - listitem:
+      - link "SPORT":
+        - /url: "#"
+  - list:
+    - listitem:
+      - link "“Ta mbyllim me sukses punën, do të kem dy zemra, një në stol e një në tribunë”":
+        - /url: https://alsat.mk/ta-mbyllim-me-sukses-punen-do-te-kem-dy-zemra-nje-ne-stol-e-nje-ne-tribune/
+        - text: FUTBOLL
+      - text:  23.05.2025 322
+      - heading "“Ta mbyllim me sukses punën, do të kem dy zemra, një në stol e një në tribunë”" [level=2]:
+        - link "“Ta mbyllim me sukses punën, do të kem dy zemra, një në stol e një në tribunë”":
+          - /url: https://alsat.mk/ta-mbyllim-me-sukses-punen-do-te-kem-dy-zemra-nje-ne-stol-e-nje-ne-tribune/
+      - paragraph: Te Napoli gjithçka është gati për të nisur festën e titullit kampion në Serie A. Për të përfunduar punën pa u shqetësuar…
+      - link "Read More »":
+        - /url: https://alsat.mk/ta-mbyllim-me-sukses-punen-do-te-kem-dy-zemra-nje-ne-stol-e-nje-ne-tribune/
+    - listitem:
+      - link "Xhejmi Vardi qëndron në Premier Ligë, gati firma me skuadrën që triumfoi në “FA Cup”":
+        - /url: https://alsat.mk/xhejmi-vardi-qendron-ne-premier-lige-gati-firma-me-skuadren-qe-triumfoi-ne-fa-cup/
+        - text: FUTBOLL
+      - text:  23.05.2025 322
+      - heading "Xhejmi Vardi qëndron në Premier Ligë, gati firma me skuadrën që triumfoi në “FA Cup”" [level=2]:
+        - link "Xhejmi Vardi qëndron në Premier Ligë, gati firma me skuadrën që triumfoi në “FA Cup”":
+          - /url: https://alsat.mk/xhejmi-vardi-qendron-ne-premier-lige-gati-firma-me-skuadren-qe-triumfoi-ne-fa-cup/
+      - paragraph: Kristall Pallas ka hyrë në garë për të nënshkruar me sulmuesin me përvojë Xhejmi Vardi, në një transferim të lirë këtë verë.…
+      - link "Read More »":
+        - /url: https://alsat.mk/xhejmi-vardi-qendron-ne-premier-lige-gati-firma-me-skuadren-qe-triumfoi-ne-fa-cup/
+    - listitem:
+      - link "Arian Ademi largohet nga Dinamo Zagrebi te skuadra sllovene":
+        - /url: https://alsat.mk/arian-ademi-largohet-nga-dinamo-zagrebi-te-skuadra-sllovene/
+        - text: FUTBOLL
+      - text:  23.05.2025 331
+      - heading "Arian Ademi largohet nga Dinamo Zagrebi te skuadra sllovene" [level=2]:
+        - link "Arian Ademi largohet nga Dinamo Zagrebi te skuadra sllovene":
+          - /url: https://alsat.mk/arian-ademi-largohet-nga-dinamo-zagrebi-te-skuadra-sllovene/
+      - paragraph: Futbollisti i njohur shqiptar, Arijan Ademi, do të largohet nga Dinamo Zagrebi gjatë afatit kalimtar të verës. 33-vjeçari pritet të shkoj si…
+      - link "Read More »":
+        - /url: https://alsat.mk/arian-ademi-largohet-nga-dinamo-zagrebi-te-skuadra-sllovene/
+    - listitem:
+      - link "Çdo pikë vendos kampionin e Serie A, Napoli e Interi në aktin e fundit":
+        - /url: https://alsat.mk/cdo-pike-vendos-kampionin-e-serie-a-napoli-e-interi-ne-aktin-e-fundit/
+        - text: FUTBOLL
+      - text:  23.05.2025 327
+      - heading "Çdo pikë vendos kampionin e Serie A, Napoli e Interi në aktin e fundit" [level=2]:
+        - link "Çdo pikë vendos kampionin e Serie A, Napoli e Interi në aktin e fundit":
+          - /url: https://alsat.mk/cdo-pike-vendos-kampionin-e-serie-a-napoli-e-interi-ne-aktin-e-fundit/
+      - paragraph: "Serie A arrin kulmin e saj me dy ndeshje vendimtare: Napoli pret Kaliarin në “Diego Armando Maradona”, ndërsa Interi udhëton drejt Komos.…"
+      - link "Read More »":
+        - /url: https://alsat.mk/cdo-pike-vendos-kampionin-e-serie-a-napoli-e-interi-ne-aktin-e-fundit/
+    - listitem:
+      - link "Kristiano Ronaldo refuzoi 185 mln euro në vit… për një ëndërr të fundit":
+        - /url: https://alsat.mk/kristiano-ronaldo-refuzoi-185-mln-euro-ne-vit-per-nje-enderr-te-fundit/
+        - text: FUTBOLL
+      - text:  23.05.2025 345
+      - heading "Kristiano Ronaldo refuzoi 185 mln euro në vit… për një ëndërr të fundit" [level=2]:
+        - link "Kristiano Ronaldo refuzoi 185 mln euro në vit… për një ëndërr të fundit":
+          - /url: https://alsat.mk/kristiano-ronaldo-refuzoi-185-mln-euro-ne-vit-per-nje-enderr-te-fundit/
+      - paragraph: Kristiano Ronaldo, 40 vjeç tashmë dhe në fund karriere më afër se kurrë, mund të largohet nga Al Nassr. Arabia Saudite i…
+      - link "Read More »":
+        - /url: https://alsat.mk/kristiano-ronaldo-refuzoi-185-mln-euro-ne-vit-per-nje-enderr-te-fundit/
+    - listitem:
+      - link "Nëse dështon Virtz, Liverpulli ka planin “B” që kushton 83 mln euro":
+        - /url: https://alsat.mk/nese-deshton-virtz-liverpulli-ka-planin-b-qe-kushton-83-mln-euro/
+        - text: FUTBOLL
+      - text:  23.05.2025 330
+      - heading "Nëse dështon Virtz, Liverpulli ka planin “B” që kushton 83 mln euro" [level=2]:
+        - link "Nëse dështon Virtz, Liverpulli ka planin “B” që kushton 83 mln euro":
+          - /url: https://alsat.mk/nese-deshton-virtz-liverpulli-ka-planin-b-qe-kushton-83-mln-euro/
+      - paragraph: David Ornstein raporton se Liverpulli ka një plan B, nëse Florian Virtz vendos të transferohet te Bajerni. Edhe pse klubi i kuq…
+      - link "Read More »":
+        - /url: https://alsat.mk/nese-deshton-virtz-liverpulli-ka-planin-b-qe-kushton-83-mln-euro/
+  - link "Hapë më Shumë":
+    - /url: "#"
+  - heading "SHENDETI" [level=3]
+  - list:
+    - listitem:
+      - link "Previous page":
+        - /url: "#"
+    - listitem:
+      - link "Next page":
+        - /url: "#"
+  - list:
+    - listitem:
+      - link "Nëse konsumoni këtë lloj peshku do të keni halucinacione deri në tri ditë":
+        - /url: https://alsat.mk/nese-konsumoni-kete-lloj-peshku-do-te-keni-halucinacione-deri-ne-tri-dite/
+        - text: KURIOZITET
+      - text:  23.05.2025 326
+      - heading "Nëse konsumoni këtë lloj peshku do të keni halucinacione deri në tri ditë" [level=2]:
+        - link "Nëse konsumoni këtë lloj peshku do të keni halucinacione deri në tri ditë":
+          - /url: https://alsat.mk/nese-konsumoni-kete-lloj-peshku-do-te-keni-halucinacione-deri-ne-tri-dite/
+      - paragraph: Salpa, një peshk që banon në Detin Mesdhe, është një specie e veçantë që tërheq vëmendjen për pamjen e saj…
+      - link "Read More »":
+        - /url: https://alsat.mk/nese-konsumoni-kete-lloj-peshku-do-te-keni-halucinacione-deri-ne-tri-dite/
+    - listitem:
+      - link "Pini ujë me stomak bosh në mëngjes! Ja përfitimet e jashtëzakonshme në shëndet":
+        - /url: https://alsat.mk/pini-uje-me-stomak-bosh-ne-mengjes-ja-perfitimet-e-jashtezakonshme-ne-shendet/
+      - text:  23.05.2025
+      - heading "Pini ujë me stomak bosh në mëngjes! Ja përfitimet e jashtëzakonshme në shëndet" [level=2]:
+        - link "Pini ujë me stomak bosh në mëngjes! Ja përfitimet e jashtëzakonshme në shëndet":
+          - /url: https://alsat.mk/pini-uje-me-stomak-bosh-ne-mengjes-ja-perfitimet-e-jashtezakonshme-ne-shendet/
+    - listitem:
+      - link "A mund ta ngadalësojë vitamina D procesin e plakjes?":
+        - /url: https://alsat.mk/a-mund-ta-ngadalesoje-vitamina-d-procesin-e-plakjes/
+      - text:  22.05.2025
+      - heading "A mund ta ngadalësojë vitamina D procesin e plakjes?" [level=2]:
+        - link "A mund ta ngadalësojë vitamina D procesin e plakjes?":
+          - /url: https://alsat.mk/a-mund-ta-ngadalesoje-vitamina-d-procesin-e-plakjes/
+    - listitem:
+      - link "Pija e përditshme që mund të jetë shkaktari i dhimbjes së lukthit dhe fryrjes së barkut":
+        - /url: https://alsat.mk/pija-e-perditshme-qe-mund-te-jete-shkaktari-i-dhimbjes-se-lukthit-dhe-fryrjes-se-barkut/
+      - text:  22.05.2025
+      - heading "Pija e përditshme që mund të jetë shkaktari i dhimbjes së lukthit dhe fryrjes së barkut" [level=2]:
+        - link "Pija e përditshme që mund të jetë shkaktari i dhimbjes së lukthit dhe fryrjes së barkut":
+          - /url: https://alsat.mk/pija-e-perditshme-qe-mund-te-jete-shkaktari-i-dhimbjes-se-lukthit-dhe-fryrjes-se-barkut/
+    - listitem:
+      - 'link "Gjaku artificial i krijuar në Japoni: Një përparim mjekësor që mund të shpëtojë miliona njerëz"':
+        - /url: https://alsat.mk/gjaku-artificial-i-krijuar-ne-japoni-nje-perparim-mjekesor-qe-mund-te-shpetoje-miliona-njerez/
+      - text:  22.05.2025
+      - 'heading "Gjaku artificial i krijuar në Japoni: Një përparim mjekësor që mund të shpëtojë miliona njerëz" [level=2]':
+        - 'link "Gjaku artificial i krijuar në Japoni: Një përparim mjekësor që mund të shpëtojë miliona njerëz"':
+          - /url: https://alsat.mk/gjaku-artificial-i-krijuar-ne-japoni-nje-perparim-mjekesor-qe-mund-te-shpetoje-miliona-njerez/
+    - listitem:
+      - link "Shtatë shenja që tregojnë se po konsumoni shumë sheqer dhe mund të mos e kuptoni fare":
+        - /url: https://alsat.mk/shtate-shenja-qe-tregojne-se-po-konsumoni-shume-sheqer-dhe-mund-te-mos-e-kuptoni-fare/
+      - text:  22.05.2025
+      - heading "Shtatë shenja që tregojnë se po konsumoni shumë sheqer dhe mund të mos e kuptoni fare" [level=2]:
+        - link "Shtatë shenja që tregojnë se po konsumoni shumë sheqer dhe mund të mos e kuptoni fare":
+          - /url: https://alsat.mk/shtate-shenja-qe-tregojne-se-po-konsumoni-shume-sheqer-dhe-mund-te-mos-e-kuptoni-fare/
+  - heading "METROPOL" [level=3]
+  - list:
+    - listitem:
+      - link "Previous page":
+        - /url: "#"
+    - listitem:
+      - link "Next page":
+        - /url: "#"
+  - list:
+    - listitem:
+      - link "Kourtney Kardashian kritikon sistemin arsimor amerikan":
+        - /url: https://alsat.mk/kourtney-kardashian-kritikon-sistemin-arsimor-amerikan/
+        - text: METROPOL
+      - text:  22.05.2025 339
+      - heading "Kourtney Kardashian kritikon sistemin arsimor amerikan" [level=2]:
+        - link "Kourtney Kardashian kritikon sistemin arsimor amerikan":
+          - /url: https://alsat.mk/kourtney-kardashian-kritikon-sistemin-arsimor-amerikan/
+      - paragraph: Ylli televiziv, Kourtney Kardashian ka deklaruar se sistemi arsimor amerikan është i tejkaluar dhe se ka menduar seriozisht t’i mësojë…
+    - listitem:
+      - link "Shakira rrëzohet në skenë gjatë koncertit, por reagon me hijeshi":
+        - /url: https://alsat.mk/shakira-rrezohet-ne-skene-gjate-koncertit-por-reagon-me-hijeshi/
+      - text:  22.05.2025
+      - heading "Shakira rrëzohet në skenë gjatë koncertit, por reagon me hijeshi" [level=2]:
+        - link "Shakira rrëzohet në skenë gjatë koncertit, por reagon me hijeshi":
+          - /url: https://alsat.mk/shakira-rrezohet-ne-skene-gjate-koncertit-por-reagon-me-hijeshi/
+    - listitem:
+      - link "Duke kërkuar fytyrën tënde":
+        - /url: https://alsat.mk/duke-kerkuar-fytyren-tende/
+      - text:  22.05.2025
+      - heading "Duke kërkuar fytyrën tënde" [level=2]:
+        - link "Duke kërkuar fytyrën tënde":
+          - /url: https://alsat.mk/duke-kerkuar-fytyren-tende/
+    - listitem:
+      - link "Kleber Filho kthehet në Festivalin e Filmit në Kanë me dramën e tij të fundit, “Agjenti sekret”":
+        - /url: https://alsat.mk/kleber-filho-kthehet-ne-festivalin-e-filmit-ne-kane-me-dramen-e-tij-te-fundit-agjenti-sekret/
+      - text:  22.05.2025
+      - heading "Kleber Filho kthehet në Festivalin e Filmit në Kanë me dramën e tij të fundit, “Agjenti sekret”" [level=2]:
+        - link "Kleber Filho kthehet në Festivalin e Filmit në Kanë me dramën e tij të fundit, “Agjenti sekret”":
+          - /url: https://alsat.mk/kleber-filho-kthehet-ne-festivalin-e-filmit-ne-kane-me-dramen-e-tij-te-fundit-agjenti-sekret/
+    - listitem:
+      - link "Fifty Cent vazhdon të tall publikisht Diddy-n pasi u ngritën akuza të rënda kundër tij":
+        - /url: https://alsat.mk/fifty-cent-vazhdon-te-tall-publikisht-diddy-n-pasi-u-ngriten-akuza-te-renda-kunder-tij/
+      - text:  22.05.2025
+      - heading "Fifty Cent vazhdon të tall publikisht Diddy-n pasi u ngritën akuza të rënda kundër tij" [level=2]:
+        - link "Fifty Cent vazhdon të tall publikisht Diddy-n pasi u ngritën akuza të rënda kundër tij":
+          - /url: https://alsat.mk/fifty-cent-vazhdon-te-tall-publikisht-diddy-n-pasi-u-ngriten-akuza-te-renda-kunder-tij/
+    - listitem:
+      - link "Denzel Washington nderohet nga Spike Lee në premierën e ‘Highest 2 Lowest’ në Kanë":
+        - /url: https://alsat.mk/denzel-washington-nderohet-nga-spike-lee-ne-premieren-e-highest-2-lowest-ne-kane/
+      - text:  21.05.2025
+      - heading "Denzel Washington nderohet nga Spike Lee në premierën e ‘Highest 2 Lowest’ në Kanë" [level=2]:
+        - link "Denzel Washington nderohet nga Spike Lee në premierën e ‘Highest 2 Lowest’ në Kanë":
+          - /url: https://alsat.mk/denzel-washington-nderohet-nga-spike-lee-ne-premieren-e-highest-2-lowest-ne-kane/
+- complementary "Primary Sidebar":
+  - insertion:
+    - iframe
+  - iframe
+  - iframe
+  - link "300x250_VLT":
+    - /url: https://2win.mk/casino
+  - insertion:
+    - iframe
+  - link "New Born Clinic Baner_300x250":
+    - /url: https://www.newborn.mk/mk/home/
+  - iframe
+- iframe
+- heading "ALSAT YOUTUBE" [level=2]
+- text: 1 / 29 Video 1
+- heading "Intervistë me Klatrina Zekolli Shaqiri, zëvendësministre për Transport" [level=2]
+- text: 16:33 2
+- heading "Intervistë me Astrit Iseni, zv. ministër i Brendshëm" [level=2]
+- text: 13:44 3
+- heading "Keqpërdorimi i veturave zyrtare, s’ka përgjegjësi" [level=2]
+- text: 02:50 4
+- heading "Mjekët amë kanë dhënë mbi 1 mijë ilaçe për sëmundjet kronike" [level=2]
+- text: 00:38 5
+- heading "Prej sot mjekët amë përshkruajnë terapi të cilat më herët mund ta jepnin vetëm mjekët specialistë" [level=2]
+- text: 00:26 6
+- heading "Kallëzim penal për dhunë ndaj sulmuesit të ekipit të televizionit Alsat" [level=2]
+- text: 01:21 7
+- 'heading "Kërkohet zgjidhje për avionët kundër zjarrit, Maksuti: Kemi nevojë afatgjate për pilotë" [level=2]'
+- text: 01:44 8
+- heading "Kërkohen masa të sigurisë nëpër shkolla, nxënësit nuk ndjehen të sigurt" [level=2]
+- text: 02:46 9
+- heading "Pushteti lavdërohet me uljen e inflacionit, qytetarët ankohen se nuk vërejnë lehtësime" [level=2]
+- text: 02:31 10
+- heading "Qytetarët i gëzohen fundjavës me diell, temperaturat e larta mbushën parqet" [level=2]
+- text: 02:19 11
+- heading "Dëmshpërblimi për përmbytjet në Tetovë, përplasen Komuna dhe Qeveria" [level=2]
+- text: 01:54 12
+- heading "Këshilli Gjyqësor, për 5 muaj u ndërruan 3 drejtues" [level=2]
+- text: 02:55 13
+- heading "Porositë me postë “udhëtojnë” me muaj" [level=2]
+- text: 02:48 14
+- 'heading "Protestat, Arsovska: Toka është shtetërore" [level=2]'
+- text: 02:38 15
+- 'heading "Qytetarët: Korrupsioni është bërë “bukë e ujë”" [level=2]'
+- text: 02:36 16
+- heading "Në Tetovë mbahen karnavalet ilire" [level=2]
+- text: 01:39 17
+- heading "Autostrada Shkup – Kumanovë në gjendje të mjerueshme" [level=2]
+- text: 03:21 18
+- heading "Për një vit duhet të ndrrohen dokumentet" [level=2]
+- text: 01:40 19
+- heading "Prodhuesit vendor paralajmërojnë uljen e çmimeve të produkteve bazë" [level=2]
+- text: 02:55 20
+- heading "PASDITE ME ALSAT - Enigmatikët- Ku mbetën fjalëkryqët ?" [level=2]
+- text: 32:14 21
+- heading "Autobusat të mbushur plotë, vazhdon migrimi drejt Perëndimit" [level=2]
+- text: 03:47 22
+- heading "Fshati Goshincë po shkon drejt zbrazjes" [level=2]
+- text: 03:16 23
+- heading "“Target-Fortesa”, Këshilli Gjyqësor do të shqyrtojë vendimin e Apelit" [level=2]
+- text: 02:45 24
+- heading "\"Magazina Ekonomike\" - Rrugët ndërtohen, por assesi të përfundojnë!" [level=2]
+- text: 00:00 25
+- heading "PASDITE ME ALSAT- Me çka preokupohen studentët ?" [level=2]
+- text: 45:19 26
+- heading "Mesazh kërcënues për bomba në shumë shkolla të Shkupit dhe Kumanovës" [level=2]
+- text: 02:52 27
+- heading "Pasdite me Alsat- Dali dhe Bige - Artisti dhe realiteti" [level=2]
+- text: 49:01 28
+- 'heading "Kovaçevski: Do t’i takojmë transportuesit privat / Arsovska e prerë: Nuk kemi për çfarë të bisedojmë" [level=2]'
+- text: 01:34 29
+- heading "Punëtorët e Higjienës në Tetovë refuzojnë punën, kërkojnë rrogat e prapambetura" [level=2]
+- text: 01:43
+- heading "Kuriozitet" [level=3]:
+  - link "Kuriozitet":
+    - /url: https://alsat.mk/kuriozitet/
+- list:
+  - listitem:
+    - link "Gjermanët po kalojnë masivisht tek veturat elektrike?":
+      - /url: https://alsat.mk/gjermanet-po-kalojne-masivisht-tek-veturat-elektrike/
+      - text: KURIOZITET
+    - text:  23.05.2025 333
+    - heading "Gjermanët po kalojnë masivisht tek veturat elektrike?" [level=2]:
+      - link "Gjermanët po kalojnë masivisht tek veturat elektrike?":
+        - /url: https://alsat.mk/gjermanet-po-kalojne-masivisht-tek-veturat-elektrike/
+    - paragraph: Shitjet e veturave elektrike po rriten ndjeshëm në Gjermani, por… një segment i rëndësishëm i…
+    - link "Read More »":
+      - /url: https://alsat.mk/gjermanet-po-kalojne-masivisht-tek-veturat-elektrike/
+  - listitem:
+    - link "Si t’i ktheni në gjendje normale rrobat e zvogëluara nga larja në rrobalarëse":
+      - /url: https://alsat.mk/si-ti-ktheni-ne-gjendje-normale-rrobat-e-zvogeluara-nga-larja-ne-rrobalarese/
+    - text:  23.05.2025
+    - heading "Si t’i ktheni në gjendje normale rrobat e zvogëluara nga larja në rrobalarëse" [level=2]:
+      - link "Si t’i ktheni në gjendje normale rrobat e zvogëluara nga larja në rrobalarëse":
+        - /url: https://alsat.mk/si-ti-ktheni-ne-gjendje-normale-rrobat-e-zvogeluara-nga-larja-ne-rrobalarese/
+  - listitem:
+    - link "Çfarë do të ndodhë në botë nëse zhduken mushkonjat?":
+      - /url: https://alsat.mk/cfare-do-te-ndodhe-ne-bote-nese-zhduken-mushkonjat/
+    - text:  22.05.2025
+    - heading "Çfarë do të ndodhë në botë nëse zhduken mushkonjat?" [level=2]:
+      - link "Çfarë do të ndodhë në botë nëse zhduken mushkonjat?":
+        - /url: https://alsat.mk/cfare-do-te-ndodhe-ne-bote-nese-zhduken-mushkonjat/
+  - listitem:
+    - link "Kur është më mirë të bëni dush në mëngjes apo në mbrëmje?/ Ja çfarë rekomandojnë mjekët":
+      - /url: https://alsat.mk/kur-eshte-me-mire-te-beni-dush-ne-mengjes-apo-ne-mbremje-ja-cfare-rekomandojne-mjeket/
+    - text:  22.05.2025
+    - heading "Kur është më mirë të bëni dush në mëngjes apo në mbrëmje?/ Ja çfarë rekomandojnë mjekët" [level=2]:
+      - link "Kur është më mirë të bëni dush në mëngjes apo në mbrëmje?/ Ja çfarë rekomandojnë mjekët":
+        - /url: https://alsat.mk/kur-eshte-me-mire-te-beni-dush-ne-mengjes-apo-ne-mbremje-ja-cfare-rekomandojne-mjeket/
+  - listitem:
+    - link "Turqia nis fushatën kundër obezëve, matje me peshore në mes të rrugës":
+      - /url: https://alsat.mk/turqia-nis-fushaten-kunder-obezeve-matje-me-peshore-ne-mes-te-rruges/
+    - text:  22.05.2025
+    - heading "Turqia nis fushatën kundër obezëve, matje me peshore në mes të rrugës" [level=2]:
+      - link "Turqia nis fushatën kundër obezëve, matje me peshore në mes të rrugës":
+        - /url: https://alsat.mk/turqia-nis-fushaten-kunder-obezeve-matje-me-peshore-ne-mes-te-rruges/
+- heading "TEKNOLOGJI" [level=3]
+- list:
+  - listitem:
+    - link "Bitcoin arrin çmimin më të lartë të të gjitha kohërave":
+      - /url: https://alsat.mk/bitcoin-arrin-cmimin-me-te-larte-te-te-gjitha-koherave/
+      - text: TEKNOLOGJI
+    - text:  22.05.2025 343
+    - heading "Bitcoin arrin çmimin më të lartë të të gjitha kohërave" [level=2]:
+      - link "Bitcoin arrin çmimin më të lartë të të gjitha kohërave":
+        - /url: https://alsat.mk/bitcoin-arrin-cmimin-me-te-larte-te-te-gjitha-koherave/
+    - paragraph: Bitcoin vazhdoi rritjen edhe sot, duke arritur një rekord të ri mbi 111,000 dollarë. Bëhet e ditur se rritja e…
+    - link "Read More »":
+      - /url: https://alsat.mk/bitcoin-arrin-cmimin-me-te-larte-te-te-gjitha-koherave/
+  - listitem:
+    - link "Prodhuesit e telefonave celularë do të duhet të specifikojnë se sa do të zgjasë bateria":
+      - /url: https://alsat.mk/prodhuesit-e-telefonave-celulare-do-te-duhet-te-specifikojne-se-sa-do-te-zgjase-bateria/
+      - text: TEKNOLOGJI
+    - text:  22.05.2025 339
+    - heading "Prodhuesit e telefonave celularë do të duhet të specifikojnë se sa do të zgjasë bateria" [level=2]:
+      - link "Prodhuesit e telefonave celularë do të duhet të specifikojnë se sa do të zgjasë bateria":
+        - /url: https://alsat.mk/prodhuesit-e-telefonave-celulare-do-te-duhet-te-specifikojne-se-sa-do-te-zgjase-bateria/
+    - paragraph: Bashkimi Evropian po inkurajon transparencë më të madhe nga kompanitë e teknologjisë ndaj konsumatorëve. Rregullorja më e fundit në këtë…
+    - link "Read More »":
+      - /url: https://alsat.mk/prodhuesit-e-telefonave-celulare-do-te-duhet-te-specifikojne-se-sa-do-te-zgjase-bateria/
+  - listitem:
+    - link "Anglia ndalon përdorimin e rrjeteve sociale nga të miturit në mesnatë":
+      - /url: https://alsat.mk/anglia-ndalon-perdorimin-e-rrjeteve-sociale-nga-te-miturit-ne-mesnate/
+      - text: TEKNOLOGJI
+    - text:  22.05.2025 335
+    - heading "Anglia ndalon përdorimin e rrjeteve sociale nga të miturit në mesnatë" [level=2]:
+      - link "Anglia ndalon përdorimin e rrjeteve sociale nga të miturit në mesnatë":
+        - /url: https://alsat.mk/anglia-ndalon-perdorimin-e-rrjeteve-sociale-nga-te-miturit-ne-mesnate/
+    - paragraph: Ministri britanik i Shkencës, Inovacionit dhe Teknologjisë, Peter Kyle, tha se qeveria po shqyrton një plan të madh për të…
+    - link "Read More »":
+      - /url: https://alsat.mk/anglia-ndalon-perdorimin-e-rrjeteve-sociale-nga-te-miturit-ne-mesnate/
+  - listitem:
+    - 'link "Probleme të fshehura me robotaksi-n e Teslës: A është ky automjeti më i keq që keni parë ndonjëherë?"':
+      - /url: https://alsat.mk/probleme-te-fshehura-me-robotaksi-n-e-tesles-a-eshte-ky-automjeti-me-i-keq-qe-keni-pare-ndonjehere/
+      - text: TEKNOLOGJI
+    - text:  22.05.2025 340
+    - 'heading "Probleme të fshehura me robotaksi-n e Teslës: A është ky automjeti më i keq që keni parë ndonjëherë?" [level=2]':
+      - 'link "Probleme të fshehura me robotaksi-n e Teslës: A është ky automjeti më i keq që keni parë ndonjëherë?"':
+        - /url: https://alsat.mk/probleme-te-fshehura-me-robotaksi-n-e-tesles-a-eshte-ky-automjeti-me-i-keq-qe-keni-pare-ndonjehere/
+    - paragraph: Plani i Teslës për të lançuar robot-taksi në Austin përballet me sfida serioze sigurie, ndërsa testet e automjeteve autonome pa…
+    - link "Read More »":
+      - /url: https://alsat.mk/probleme-te-fshehura-me-robotaksi-n-e-tesles-a-eshte-ky-automjeti-me-i-keq-qe-keni-pare-ndonjehere/
+  - listitem:
+    - link "Nvidia zbulon pasojat tronditëse të kufizimeve të eksportit të SHBA-së!":
+      - /url: https://alsat.mk/nvidia-zbulon-pasojat-tronditese-te-kufizimeve-te-eksportit-te-shba-se/
+      - text: TEKNOLOGJI
+    - text:  22.05.2025 343
+    - heading "Nvidia zbulon pasojat tronditëse të kufizimeve të eksportit të SHBA-së!" [level=2]:
+      - link "Nvidia zbulon pasojat tronditëse të kufizimeve të eksportit të SHBA-së!":
+        - /url: https://alsat.mk/nvidia-zbulon-pasojat-tronditese-te-kufizimeve-te-eksportit-te-shba-se/
+    - paragraph: Jensen Huang, CEO i gjigantit të teknologjisë Nvidia, zbuloi se kompania ka humbur deri në 15 miliardë dollarë në shitje…
+    - link "Read More »":
+      - /url: https://alsat.mk/nvidia-zbulon-pasojat-tronditese-te-kufizimeve-te-eksportit-te-shba-se/
+  - listitem:
+    - link "Çfarë është Kupola e Artë, mburoja e fuqishme hapësinore e Amerikës?":
+      - /url: https://alsat.mk/cfare-eshte-kupola-e-arte-mburoja-e-fuqishme-hapesinore-e-amerikes/
+      - text: TEKNOLOGJI
+    - text:  22.05.2025 349
+    - heading "Çfarë është Kupola e Artë, mburoja e fuqishme hapësinore e Amerikës?" [level=2]:
+      - link "Çfarë është Kupola e Artë, mburoja e fuqishme hapësinore e Amerikës?":
+        - /url: https://alsat.mk/cfare-eshte-kupola-e-arte-mburoja-e-fuqishme-hapesinore-e-amerikes/
+    - paragraph: Presidenti i SHBA-së, Donald Trump, tha të martën se kishte zgjedhur dizajnin për mburojën mbrojtëse nga raketat “Kupola e Artë”…
+    - link "Read More »":
+      - /url: https://alsat.mk/cfare-eshte-kupola-e-arte-mburoja-e-fuqishme-hapesinore-e-amerikes/
+- link "Trego Më Shumë":
+  - /url: "#"
+- main
+- contentinfo:
+  - text: Na ndiqni
+  - list:
+    - listitem:
+      - link " 0 Follow":
+        - /url: https://www.facebook.com/alsatnmk/
+    - listitem:
+      - link " 0 58.1K Subscribers":
+        - /url: https://youtube.com/user/alsatmtv
+    - listitem:
+      - link " 25.1K followers Followers":
+        - /url: https://instagram.com/alsat.mk/
+  - text: "Për ne: Alsat-M është një stacion televiziv kombëtar që transmeton në të gjithë territorin e Maqedonisë së Veriut. Programimi i tij transmetohet kryesisht në shqip dhe herë pas here në maqedonisht, bazuar në konceptet evropiane të informacionit që synojnë të nxisin bashkëjetesën shumetnike në Maqedoninë e Veriut. Alsat ka një gamë dinamike të programimit që mbulon: lajme, politikë, ekonomi, argëtim, muzikë, sport, etj."
+  - list:
+    - listitem:
+      - link " Facebook":
+        - /url: https://www.facebook.com/alsatnmk/
+    - listitem:
+      - link " YouTube":
+        - /url: https://www.youtube.com/user/alsatmtv
+    - listitem:
+      - link " Instagram":
+        - /url: https://www.instagram.com/alsat.mk/
+  - text: Impressum
+  - paragraph: Televizioni Nacional ALSAT M
+  - paragraph: "Adresa: Bulvar Kerste Petkov Misirkov, Shkup1000/Maqedonia e Veriut"
+  - paragraph: "Tel: 02 321 6070"
+  - paragraph: "Email: alsat@alsat-m.tv"
+  - text: Impressum
+  - paragraph: Национална телевизија АЛСАТ М
+  - paragraph: "Адреса: Булевар Крсте Петков Мисирков, 1000 Скопје, Северна Македонија"
+  - paragraph: "Тел: 02 3216070"
+  - paragraph: "e-mail: alsat@alsat-m.tv"
+  - text: © Copyright 2025, All Rights Reserved ALSAT |
+  - link "Hosted with  by Host.mk":
+    - /url: https://host.mk
+  - text: https://alsat.mk/ Marrja e paautorizuar e teksteve dhe videove me të drejtë autoriale ose ndonjë përmbajtje të ngjashme pa pëlqimin paraprak me shkrim të Alsat TV do të konsiderohet shkelje e të drejtave autoriale dhe për këtë Alsat TV e ruan të drejtën të kërkojë kompensim përkatës monetar.Mosrespektimi dhe abuzimi i të drejtave autoriale dhe të drejtave simotër dënohet me ligj.Çdo marrje e paautorizuar, shfrytëzim, përdorim apo publikim i tekstit, fotografitë ose videot apo çfarëdo përmbajtje tjetër e ngjashme që paraqet pronësi të TV Alsat, pa pëlqim paraprak me shkrim nga TV Alsat, ndalohet rreptësisht dhe për të njëjtën paguhet kompensim përkatës financiar, për çka pronari ka të drejtë të nis procedurë përkatëse.Në rast të marrjes së teksteve autoriale dhe videove apo çfarëdo përmbajtje tjetër, në mënyrë të obligueshme nevojitet pëlqim paraprak nga TV Alsat dhe vendosje të linkut që do të çojë deri në web faqen e TV Alsat.
+- link " Back to top button":
+  - /url: "#go-to-tie-body"
+```
+
+# Test source
+
+```ts
+   1 | const { test, expect } = require('@playwright/test');
+   2 |
+   3 | test('Alsat.mk homepage loads and has a visible logo', async ({ page }) => {
+   4 |   await page.goto('https://alsat.mk/');
+   5 |
+   6 |   // Check if the logo is visible
+   7 |   const logo = page.locator('img[alt="Alsat-M"]'); // Adjust alt text if needed
+>  8 |   await expect(logo).toBeVisible();
+     |                      ^ Error: Timed out 5000ms waiting for expect(locator).toBeVisible()
+   9 |
+  10 |   // Check the title
+  11 |   await expect(page).toHaveTitle(/Alsat/);
+  12 | });
+  13 |
+```
